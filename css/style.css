@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   background-color: #EFEFEF;
+}
+
+:root {
+   font-size: 62.5%;
+   --color-Blue: #3968D6;
+   --text-white:  #EAEFF2;
+}
+
+html {
+   overflow-x: hidden;
+}
+
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1.6rem ;
+   margin-bottom: 2.4rem;
+   letter-spacing: .1rem;
+   background-color: var(--color-Blue);
+   color: var(--text-white);
+}
+
+.container {
+   max-width: 102.4rem;
+   width: 90%;
+   margin: 0 auto;
+}
+
+nav ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+   list-style: none;
+}
+
+nav ul li {
+   display: inline-block;
+   margin-right: 1.6rem;
+
+}
+
+nav ul li a {
+   padding: 1.5rem 2rem;
+   text-decoration: none;
+   color: var(--text-white);
+   white-space: nowrap;  /* Para evitar quebrar o texto do link "Sobre a Loja" */
+}
+
+section {
+   margin-bottom: 4.8rem 0;
+}
+
+.aboutStore h2 {
+   margin-bottom: 1.6rem;
+   font-style: italic;
+   color: var(--color-Blue);
+   border-bottom: 3px solid var(--color-Blue);
+   
+}
+
+h2 {
+   padding: 1.6rem 0;
+}
+
+.aboutStore img {
+   max-width: 40rem;
+   margin-right: 2.4rem;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+   /* Estilos para desktop */
+   /* ... */
+}
+
+/* Layout Tablet (de 641px até 1023px) */
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+   /* Estilos para tablet */
+   /* ... */
+}
+
+/* Layout Mobile (até 640px) */
+@media screen and (max-width: 640px) {
+   
+}
