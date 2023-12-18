@@ -143,6 +143,34 @@ header #navbar .nav-list .nav-item a:hover {
    background-color: #70886F;
    
 }
+/* footer */
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 15%;
+   background-color: var(--color-green);
+   color: var(--text-white);
+}
+
+.footer-content {
+   max-width: 102.4rem;
+   margin: 0 auto;
+   font-size: 1.4rem;
+   letter-spacing: .1rem;
+}
+
+.footer-content a {
+   color: #22053D;
+   text-decoration: none;
+   cursor: pointer;
+   transition: .3s;
+}
+
+.footer-content a:hover {
+   color: #343541;
+}
 
 /*  Layout desktop */
 @media screen and (min-width: 1024px) {
@@ -199,6 +227,10 @@ header #navbar .nav-list .nav-item a:hover {
    #products .products-card {
       width: 100%;
    }
+
+   footer{
+      height: 10%;
+   }
 }
 
 /* Layout Mobile (até 640px) */
@@ -232,5 +264,9 @@ header #navbar .nav-list .nav-item a:hover {
       margin: 0 auto;
       font-size: 1.4rem;
       border-bottom: none;
-   }  
+   }
+
+   footer {
+      height: 15%;
+   }
 }
