@@ -7,22 +7,26 @@
   </p>
 
 ## ☕ Sobre o projeto
-  Este projeto tem como objetivo criar um layout responsivo para apresentar uma loja online fictícia especializada em queijos veganos.
+
+Este projeto tem como objetivo criar um layout responsivo para apresentar uma loja online fictícia especializada em queijos veganos.
 
 ## ⚙ Temas do projeto
-  - HTML semântico;
-  - Barra de navegação com links para seções da página;
-  - Utilização de medida responsiva (até 640 px, 641 a 1023px e maior que 1024px);
-  - Utilização do seletor root;
-  - Utilização de variáveis CSS
-  - Deploy;
-    
+
+- HTML semântico;
+- Barra de navegação com links para seções da página;
+- Utilização de medida responsiva (até 640 px, 641 a 1023px e maior que 1024px);
+- Utilização do seletor root;
+- Utilização de variáveis CSS
+- Deploy;
+
 ## 🛠 Tecnologias Utilizadas
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="logo html5" width="40" height="40"/> </a> 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="logo css3" width="40" height="40"/> </a>
-  
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="logo html5" width="40" height="40"/> </a>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="logo css3" width="40" height="40"/> </a>
+
 ## 🎨 Layout
 
-| Desktop | Tablet | Mobile |
-|----------|----------|----------|
-| ![Desktop](assets/images/desktop-img) | ![Tablet](assets/images/tablet-img) | ![Mobile](assets/images/mobile-img) |
+| Desktop <img width="200"/>                | Tablet <img width="200"/>               | Mobile <img width="200"/>               |
+| ----------------------------------------- | --------------------------------------- | --------------------------------------- |
+| ![Desktop](assets/images/desktop-img.png) | ![Tablet](assets/images/tablet-img.png) | ![Mobile](assets/images/mobile-img.png) |
+| > 1024px                                  | 641 a 1023px                            | até 640 px                              |
